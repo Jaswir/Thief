@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "1567c29c-40b1-4d3c-88f1-df30091d413f",
+            "Value": {
+                "id": "d92a1fa4-dceb-4812-b94a-2adfa855946f",
+                "resourcePath": "fonts\\fnt_continue\\fnt_continue.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "16928421-2163-426e-bfac-2e2c44dc84d2",
             "Value": {
                 "id": "8922ef69-0e8b-4633-9c38-0a574101d5a3",
@@ -127,6 +135,14 @@
             }
         },
         {
+            "Key": "51e0ebb8-ae11-4567-9d87-1c881d9b793b",
+            "Value": {
+                "id": "b441ae17-ee8b-4d02-ae3c-34e7a6a58494",
+                "resourcePath": "objects\\obj_gameover\\obj_gameover.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5415dc12-baaa-4953-9a84-ad1e463c8e84",
             "Value": {
                 "id": "9dbe5de4-4785-483e-8269-12d8f04eba75",
@@ -167,11 +183,27 @@
             }
         },
         {
+            "Key": "740598bc-4655-40de-99f9-9e0a0ab66d15",
+            "Value": {
+                "id": "83892c81-b342-439d-bc7a-6421fe0d3ea3",
+                "resourcePath": "sounds\\snd_win\\snd_win.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
             "Value": {
                 "id": "5d61f14e-05fe-4713-a60a-fc39ceca410c",
                 "resourcePath": "options\\html5\\options_html5.yy",
                 "resourceType": "GMHtml5Options"
+            }
+        },
+        {
+            "Key": "874f9109-495d-4cdd-801f-70d4518b88a2",
+            "Value": {
+                "id": "56196aaa-53b6-4ef6-a0f7-da0cc8c6301a",
+                "resourcePath": "fonts\\fnt_target\\fnt_target.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -322,8 +354,16 @@
             "Key": "d94a0f5e-14bd-4fd4-84f9-aaacbfaa42aa",
             "Value": {
                 "id": "31b56a98-b8c3-4c1e-b304-d753393a5070",
-                "resourcePath": "rooms\\thief\\thief.yy",
+                "resourcePath": "rooms\\level1\\level1.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "dc83df42-ade2-43cf-9cb1-09a652aa9884",
+            "Value": {
+                "id": "ab8cb663-02fb-4065-abe4-31562ac2fa8d",
+                "resourcePath": "objects\\obj_target\\obj_target.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -340,6 +380,14 @@
                 "id": "dd3275b2-36a9-4a20-bd14-76285300ce0c",
                 "resourcePath": "objects\\obj_guard\\obj_guard.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "eeba6250-7c15-4f3e-a1b3-72dd4652741a",
+            "Value": {
+                "id": "9b78c477-c8d7-488e-a0e8-dc8f532d4836",
+                "resourcePath": "rooms\\level2\\level2.yy",
+                "resourceType": "GMRoom"
             }
         },
         {

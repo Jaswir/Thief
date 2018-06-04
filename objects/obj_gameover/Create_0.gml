@@ -1,7 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
-
-spd = 1.0;
-
-//wallet
-wallet = instance_create_layer(x , y, "Wallet", obj_wallet);
+levelreached = 0;
+fade = 0;
+fDelta = 0.2;
