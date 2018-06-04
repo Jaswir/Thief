@@ -1,6 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+if(caught) exit;
+
 if(pulling){
 	
 	image_yscale = oldyscale + sin(i) * pullradius;
@@ -11,7 +13,7 @@ if(pulling){
 
 if(grabbed){
 	
-	with(obj_gem){
+	with(obj_wallet){
 		y = other.y + other.image_yscale;
 		if(y > room_height){
 			instance_destroy();
@@ -19,4 +21,11 @@ if(grabbed){
 		}
 	}
 	
+	hand.image_index = 1;
+	
+}
+
+with(hand){
+	
+	y = other.y + other.image_yscale;	
 }

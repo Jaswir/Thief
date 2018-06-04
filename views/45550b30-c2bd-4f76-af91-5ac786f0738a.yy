@@ -8,7 +8,7 @@
         "68700179-8cf6-43de-a9c1-f35390f92cce"
     ],
     "filterType": "GMObject",
-    "folderName": "ui_gem",
+    "folderName": "ui",
     "isDefaultView": false,
     "localisedFolderName": ""
 }
