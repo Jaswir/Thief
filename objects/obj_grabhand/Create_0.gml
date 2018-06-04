@@ -9,7 +9,6 @@ hand = instance_create_layer(x, y, "Hand", obj_hand);
 with(hand){
 	image_xscale = 2.0;
 	image_yscale = image_xscale;
-	
 }
 
 
@@ -22,4 +21,3 @@ pullspeed = 0.1;
 
 //Grabbing variables
 grabbed = false;
-caught = false;

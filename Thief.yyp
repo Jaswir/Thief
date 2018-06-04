@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0c0bdd66-bb05-4dc9-a081-43cc94b7ecc1",
+            "Value": {
+                "id": "ce1da2ee-90fb-4073-b91a-82969bbf3eb7",
+                "resourcePath": "objects\\obj_timer\\obj_timer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "16928421-2163-426e-bfac-2e2c44dc84d2",
             "Value": {
                 "id": "8922ef69-0e8b-4633-9c38-0a574101d5a3",
@@ -52,6 +60,14 @@
                 "id": "6c1b6abc-9b7f-44c8-be82-f0d1eb4cb2ce",
                 "resourcePath": "views\\237c2500-ebae-4611-b54c-545b5991934a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "23d8ecbc-3250-4bef-a91f-911a53622fbc",
+            "Value": {
+                "id": "90262198-d833-46f5-8739-d68cf3be6cd5",
+                "resourcePath": "fonts\\fnt_timer\\fnt_timer.yy",
+                "resourceType": "GMFont"
             }
         },
         {
@@ -108,6 +124,22 @@
                 "id": "2358655c-fc13-4edc-a5bd-fcd23d3a1edc",
                 "resourcePath": "views\\4e484ad5-5d79-4e10-bf3e-6640db018e6b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5415dc12-baaa-4953-9a84-ad1e463c8e84",
+            "Value": {
+                "id": "9dbe5de4-4785-483e-8269-12d8f04eba75",
+                "resourcePath": "objects\\obj_stakker\\obj_stakker.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "548bfc0a-2f33-4555-b5fd-750e0bb7291c",
+            "Value": {
+                "id": "149c43ab-213e-47dc-bc69-918483b31b8a",
+                "resourcePath": "sprites\\spr_stakker\\spr_stakker.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -276,14 +308,6 @@
                 "id": "c831b3b5-a52c-48b1-85a1-f649f941bc8d",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
-            }
-        },
-        {
-            "Key": "d0d60c5f-279e-457b-8252-a44493902088",
-            "Value": {
-                "id": "4a527e5f-395c-4409-a093-30a24517e6cf",
-                "resourcePath": "objects\\obj_grabrem\\obj_grabrem.yy",
-                "resourceType": "GMObject"
             }
         },
         {
