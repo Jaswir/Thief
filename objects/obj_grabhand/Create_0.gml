@@ -21,3 +21,4 @@ pullspeed = 0.1;
 
 //Grabbing variables
 grabbed = false;
+catch = false;
