@@ -16,5 +16,5 @@ if(pickpockets >= 5 && !pickpocketphasepassed){
 if(mouse_check_button_pressed(mb_left)){
 					
 	if(instance_exists(obj_grabhand)) exit;
-	var hand = instance_create_layer(mouse_x, 601, "Hand", obj_grabhand);
+	var hand = instance_create_layer(mouse_x, 600, "Hand", obj_grabhand);
 }

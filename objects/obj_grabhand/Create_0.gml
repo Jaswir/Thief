@@ -14,11 +14,11 @@ with(hand){
 
 //Sinusoidal variables
 i = 0;
-pulling = true;
 pullradius = 600;
 pullspeed = 0.1;
 
 
-//Grabbing variables
+//Dangling variables
+pulling = true;
 grabbed = false;
 catch = false;
