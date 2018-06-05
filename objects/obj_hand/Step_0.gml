@@ -3,6 +3,5 @@
 
 if(grabbed){
 	
-	with(obj_wallet) y = other.y;
-	
+	with(wallet) y = other.y;
 }

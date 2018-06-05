@@ -15,7 +15,7 @@ with(hand){
 //Sinusoidal variables
 i = 0;
 pulling = true;
-pullradius = 300;
+pullradius = 600;
 pullspeed = 0.1;
 
 

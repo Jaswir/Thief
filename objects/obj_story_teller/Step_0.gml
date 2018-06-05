@@ -27,10 +27,13 @@ if(mouse_check_button_pressed(mb_left) ){
 		else if(!basicsnarrated){
 			
 			with(obj_stakker) instance_destroy();
-			
+			with(obj_multicol_spawner){
+				alarm[0] = 1;
+			}
 			
 			basicsnarrated = true;	
 		}
+		
 		
 		exit;
 	}

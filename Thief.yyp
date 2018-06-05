@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "4f1e1fa6-00a6-462f-9e1d-fd45a933c7c1",
+            "Value": {
+                "id": "a134d124-0dff-4633-9c0d-981e4677e2c5",
+                "resourcePath": "objects\\obj_multicol_spawner\\obj_multicol_spawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "5415dc12-baaa-4953-9a84-ad1e463c8e84",
             "Value": {
                 "id": "9dbe5de4-4785-483e-8269-12d8f04eba75",
