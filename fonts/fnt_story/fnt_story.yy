@@ -2,7 +2,7 @@
     "id": "874f9109-495d-4cdd-801f-70d4518b88a2",
     "modelName": "GMFont",
     "mvc": "1.0",
-    "name": "fnt_target",
+    "name": "fnt_story",
     "AntiAlias": 1,
     "TTFName": "",
     "bold": false,

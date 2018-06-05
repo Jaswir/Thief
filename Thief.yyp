@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "04d87fed-4ef0-4763-bc81-664ce60af3a7",
+            "Value": {
+                "id": "68c0208b-bef2-418c-bcb5-f4a5685921d8",
+                "resourcePath": "objects\\obj_story_teller\\obj_story_teller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "08a6e215-e601-4f7b-a106-ff42ccb12e4f",
             "Value": {
                 "id": "9c1b323d-c4e1-4abe-af35-6f3175d32ceb",
@@ -194,8 +202,16 @@
             "Key": "874f9109-495d-4cdd-801f-70d4518b88a2",
             "Value": {
                 "id": "56196aaa-53b6-4ef6-a0f7-da0cc8c6301a",
-                "resourcePath": "fonts\\fnt_target\\fnt_target.yy",
+                "resourcePath": "fonts\\fnt_story\\fnt_story.yy",
                 "resourceType": "GMFont"
+            }
+        },
+        {
+            "Key": "8dc17a32-da86-4c62-aeb0-426b01928bb3",
+            "Value": {
+                "id": "ec3e4f1a-d07b-4bf5-9bb3-d65d419865b2",
+                "resourcePath": "views\\8dc17a32-da86-4c62-aeb0-426b01928bb3.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
