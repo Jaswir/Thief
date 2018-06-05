@@ -263,6 +263,14 @@
             }
         },
         {
+            "Key": "9ad9d59a-ca97-46ca-b7bb-be7bfe77cec7",
+            "Value": {
+                "id": "e657c60a-48a9-4f07-8fba-d2e00cc522aa",
+                "resourcePath": "objects\\obj_stakker\\obj_stakker.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "9f983786-110d-48ad-aa97-8cfc44ae9747",
             "Value": {
                 "id": "5244bf6e-c7bd-4c78-8553-247c79a25ab8",
@@ -380,6 +388,14 @@
                 "id": "31b56a98-b8c3-4c1e-b304-d753393a5070",
                 "resourcePath": "rooms\\gamefield\\gamefield.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "e23538cf-dfb8-441e-82de-612100f1dffd",
+            "Value": {
+                "id": "4b65a48f-e5e4-402d-9bff-cd5872bc656d",
+                "resourcePath": "objects\\obj_stakker_spawner\\obj_stakker_spawner.yy",
+                "resourceType": "GMObject"
             }
         },
         {

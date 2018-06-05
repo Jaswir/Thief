@@ -8,9 +8,14 @@ if(mouse_check_button_pressed(mb_left) ){
 	counter++;
 	if(counter >= array_length_1d(lines)){
 		narrating = false;
-		show_message("Introduce moving enemy");
+		
+		//Introduce moving enemy
+		instance_destroy(obj_tut_stakker);
+		obj_stakker_spawner.alarm[0] = 1;
+		
 		exit;
 	}
 
 	msg = lines[counter]; 
 }
+ 

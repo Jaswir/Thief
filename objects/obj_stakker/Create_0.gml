@@ -8,3 +8,6 @@ with(wallet){
 	image_xscale = 0.75;
 	image_yscale = image_xscale;
 }
+
+//Walk variables
+walkspd = 0.0;
