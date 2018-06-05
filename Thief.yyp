@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "36eee0ea-05e4-4fea-8e21-4b5d80d5717b",
+            "Value": {
+                "id": "5604d2ed-54af-4718-a77b-6789d8d04856",
+                "resourcePath": "sprites\\spr_stakker1\\spr_stakker1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3850ca2b-7590-4ce4-b26a-b1ac4213b3c6",
             "Value": {
                 "id": "5306b5fd-a4f3-422d-af9b-8dd134878987",
@@ -135,6 +143,14 @@
             }
         },
         {
+            "Key": "4e353cfb-6216-467b-b4a3-1efeb7521bf9",
+            "Value": {
+                "id": "8b36281b-32a3-48ff-8a61-1cb31c29703b",
+                "resourcePath": "sprites\\spr_stakker2\\spr_stakker2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4e484ad5-5d79-4e10-bf3e-6640db018e6b",
             "Value": {
                 "id": "2358655c-fc13-4edc-a5bd-fcd23d3a1edc",
@@ -154,7 +170,7 @@
             "Key": "548bfc0a-2f33-4555-b5fd-750e0bb7291c",
             "Value": {
                 "id": "149c43ab-213e-47dc-bc69-918483b31b8a",
-                "resourcePath": "sprites\\spr_stakker\\spr_stakker.yy",
+                "resourcePath": "sprites\\spr_stakker0\\spr_stakker0.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -394,7 +410,7 @@
             "Key": "e23538cf-dfb8-441e-82de-612100f1dffd",
             "Value": {
                 "id": "4b65a48f-e5e4-402d-9bff-cd5872bc656d",
-                "resourcePath": "objects\\obj_stakker_spawner\\obj_stakker_spawner.yy",
+                "resourcePath": "objects\\obj_basic_spawner\\obj_basic_spawner.yy",
                 "resourceType": "GMObject"
             }
         },

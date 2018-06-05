@@ -3,6 +3,15 @@
 
 if(obj_story_teller.narrating) exit;
 
+if(pickpockets >= 5 && !pickpocketphasepassed){
+	
+	pickpocketphasepassed = true;
+	obj_story_teller.narrating = true;
+	instance_destroy(obj_basic_spawner);
+	
+	
+}
+
 //Draws grabhand default direction
 if(mouse_check_button_pressed(mb_left)){
 					

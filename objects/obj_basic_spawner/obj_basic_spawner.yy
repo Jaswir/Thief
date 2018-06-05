@@ -2,7 +2,7 @@
     "id": "e23538cf-dfb8-441e-82de-612100f1dffd",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "obj_stakker_spawner",
+    "name": "obj_basic_spawner",
     "eventList": [
         {
             "id": "da13e7f6-63f6-4d21-842a-06c58f97c172",

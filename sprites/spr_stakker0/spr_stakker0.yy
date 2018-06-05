@@ -2,7 +2,7 @@
     "id": "548bfc0a-2f33-4555-b5fd-750e0bb7291c",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "spr_stakker",
+    "name": "spr_stakker0",
     "For3D": false,
     "HTile": false,
     "VTile": false,

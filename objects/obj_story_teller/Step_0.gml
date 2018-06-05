@@ -9,9 +9,28 @@ if(mouse_check_button_pressed(mb_left) ){
 	if(counter >= array_length_1d(lines)){
 		narrating = false;
 		
-		//Introduce moving enemy
-		instance_destroy(obj_tut_stakker);
-		obj_stakker_spawner.alarm[0] = 1;
+		if(!tutnarrated){
+			
+			//Introduce moving enemy
+			instance_destroy(obj_tut_stakker);
+			obj_basic_spawner.alarm[0] = 1;
+		
+		
+			lines[3] = "That's it rookie!";
+			lines[4] = "You got down the basics";
+			lines[5] = "Get ready for the real work";
+			msg = lines[3];
+			
+			tutnarrated = true;
+		}
+		
+		else if(!basicsnarrated){
+			
+			with(obj_stakker) instance_destroy();
+			
+			
+			basicsnarrated = true;	
+		}
 		
 		exit;
 	}

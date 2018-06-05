@@ -9,6 +9,7 @@ lines[2] = "Let's try a more realistic scenario";
 
 
 
+
 msg = lines[0];
 counter = 0;
 
@@ -17,3 +18,6 @@ fade = 0;
 fDelta = 0.1;
 
 narrating = false;
+tutnarrated = false;
+basicsnarrated = false;
+

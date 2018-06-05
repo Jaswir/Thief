@@ -4,11 +4,15 @@
 if(grabbed){
 	instance_destroy(obj_wallet);
 
-
 	if(instance_exists(obj_tut_stakker)){
-	
+		
 		//Rookie message		
 		obj_story_teller.narrating = true;
+	}
 	
+	if(instance_exists(obj_stakker)){
+		
+		obj_gm.pickpockets++;	
+		
 	}
 }
