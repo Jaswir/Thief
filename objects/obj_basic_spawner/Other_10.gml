@@ -5,8 +5,9 @@
 var stakker = instance_create_layer(x , y, "Stakker", obj_stakker);
 with(stakker){
 	
-	image_xscale = 4.0;
+	image_xscale = 3.0;
 	image_yscale = image_xscale;
+	image_speed = 2;
 	walkspd = 1.0;
 	
 } 

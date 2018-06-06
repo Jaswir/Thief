@@ -3,7 +3,7 @@
 
 if(obj_story_teller.narrating) exit;
 
-if(pickpockets >= 5 && !pickpocketphasepassed){
+if(pickpockets >= 3 && !pickpocketphasepassed){
 	
 	pickpocketphasepassed = true;
 	obj_story_teller.narrating = true;

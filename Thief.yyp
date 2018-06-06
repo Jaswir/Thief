@@ -103,10 +103,10 @@
             }
         },
         {
-            "Key": "36eee0ea-05e4-4fea-8e21-4b5d80d5717b",
+            "Key": "27b2c962-362f-4521-88fd-ac5037313456",
             "Value": {
-                "id": "5604d2ed-54af-4718-a77b-6789d8d04856",
-                "resourcePath": "sprites\\spr_stakker1\\spr_stakker1.yy",
+                "id": "64ba3779-f29f-4936-b7d7-d54c7ec0f5b6",
+                "resourcePath": "sprites\\spr_stakker2\\spr_stakker2.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -140,14 +140,6 @@
                 "id": "89297e26-69a2-474c-b021-8a5993860058",
                 "resourcePath": "views\\4d3a80cc-ce5e-49a6-bb90-81ebe96de969.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "4e353cfb-6216-467b-b4a3-1efeb7521bf9",
-            "Value": {
-                "id": "8b36281b-32a3-48ff-8a61-1cb31c29703b",
-                "resourcePath": "sprites\\spr_stakker2\\spr_stakker2.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -444,6 +436,14 @@
                 "id": "ee8f164a-b17b-4363-9eea-0adbfc1aa5b3",
                 "resourcePath": "views\\f07a2177-1df5-4426-a7d9-53c25ad1326b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "f5c1ab87-465d-4254-832b-0e26f0f2d0af",
+            "Value": {
+                "id": "cab272d8-9bf5-4dc5-8102-1083e9b5fdcb",
+                "resourcePath": "sprites\\spr_stakker1\\spr_stakker1.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
