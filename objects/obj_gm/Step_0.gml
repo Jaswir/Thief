@@ -3,11 +3,9 @@
 
 if(obj_story_teller.narrating) exit;
 
-if(pickpockets >= 3 && !pickpocketphasepassed){
+if(obj_target.target == 0){
 	
-	pickpocketphasepassed = true;
 	obj_story_teller.narrating = true;
-	instance_destroy(obj_basic_spawner);
 	
 	
 }

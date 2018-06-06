@@ -14,6 +14,11 @@ if(mouse_check_button_pressed(mb_left) ){
 			//Introduce moving enemy
 			instance_destroy(obj_tut_stakker);
 			obj_basic_spawner.alarm[0] = 1;
+			
+			//Set target
+			with(obj_target){
+				target = 3;		
+			}
 		
 		
 			lines[3] = "That's it rookie!";
@@ -29,6 +34,11 @@ if(mouse_check_button_pressed(mb_left) ){
 			with(obj_stakker) instance_destroy();
 			with(obj_multicol_spawner){
 				alarm[0] = 1;
+			}
+			
+			//Set target
+			with(obj_target){
+				target = 10;		
 			}
 			
 			basicsnarrated = true;	
