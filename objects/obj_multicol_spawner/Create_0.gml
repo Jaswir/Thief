@@ -2,6 +2,6 @@
 // You can write your code in this editor
 
 randomize();
-minspawntime = 150;
-maxspawntime = 450;
+minspawntime = 100;
+maxspawntime = 250;
 

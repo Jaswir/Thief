@@ -38,7 +38,8 @@ if(mouse_check_button_pressed(mb_left) ){
 			
 			//Set target
 			with(obj_target){
-				target = 10;		
+				target = 7;	
+				with(obj_timer) event_user(0);
 			}
 			
 			basicsnarrated = true;	
