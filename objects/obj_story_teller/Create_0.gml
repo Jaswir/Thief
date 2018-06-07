@@ -19,5 +19,6 @@ fDelta = 0.1;
 
 narrating = false;
 tutnarrated = false;
+basicspawnerdestroyed = false;
 basicsnarrated = false;
 

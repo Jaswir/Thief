@@ -5,8 +5,13 @@ if(obj_story_teller.narrating) exit;
 
 if(obj_target.target == 0){
 	
-	obj_story_teller.narrating = true;
-	
+	with(obj_story_teller){
+		narrating = true;
+		if(!basicsnarrated && tutnarrated){
+			basicspawnerdestroyed = true;
+			instance_destroy(obj_basic_spawner);
+		}		
+	}
 	
 }
 

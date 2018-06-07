@@ -11,3 +11,8 @@ with(wallet){
 	image_xscale = 0.75;
 	image_yscale = image_xscale;
 }
+
+//Continue fade variables
+fade = 0;
+fDelta = 0.1;
+started = false;
