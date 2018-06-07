@@ -76,6 +76,15 @@ if(mouse_check_button_pressed(mb_left) ){
 			agentintroduced = true;
 		}
 		
+		else if (!won){
+			with(obj_stakker) instance_destroy();
+			with(obj_wallet) instance_destroy();
+			with(obj_multicol_spawner) instance_destroy();
+			with(obj_agent_spawner) instance_destroy();
+			obj_target.target = "WON";
+			won = true;	
+		}
+		
 		
 		exit;
 	}

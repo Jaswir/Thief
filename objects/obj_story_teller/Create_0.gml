@@ -22,4 +22,5 @@ tutnarrated = false;
 basicspawnerdestroyed = false;
 basicsnarrated = false;
 agentintroduced = false;
+won = false;
 
