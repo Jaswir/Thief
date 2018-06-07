@@ -71,6 +71,7 @@ if(mouse_check_button_pressed(mb_left) ){
 			}
 			
 			lines[9] = "You win!";
+			msg = lines[9];
 			
 			agentintroduced = true;
 		}

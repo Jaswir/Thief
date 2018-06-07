@@ -15,6 +15,9 @@ with(obj_officer){
 	walkspd = 0.0;
 	image_speed = 0;
 }
+
+
+
 sprite_index = spr_officer_hit;
 image_speed = 0;
 alarm[0] = audio_sound_length(snd_cops) * room_speed;

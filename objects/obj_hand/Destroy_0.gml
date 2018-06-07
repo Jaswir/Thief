@@ -13,5 +13,7 @@ if(grabbed){
 		}
 		instance_destroy(wallet);
 	}
+	
+	obj_target.target--;
 
 }
