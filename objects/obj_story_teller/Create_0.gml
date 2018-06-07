@@ -21,4 +21,5 @@ narrating = false;
 tutnarrated = false;
 basicspawnerdestroyed = false;
 basicsnarrated = false;
+agentintroduced = false;
 

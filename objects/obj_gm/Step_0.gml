@@ -3,15 +3,19 @@
 
 if(obj_story_teller.narrating) exit;
 
-if(obj_target.target == 0){
-	
+if(obj_target.target <= 0){
+
 	with(obj_story_teller){
 		narrating = true;
+	
 		if(!basicsnarrated && tutnarrated){
 			basicspawnerdestroyed = true;
 			instance_destroy(obj_basic_spawner);
 		}		
 	}
+	
+	with(obj_timer) started = false;
+	audio_play_sound(snd_win1, 1, false);
 	
 }
 

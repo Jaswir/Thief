@@ -7,7 +7,8 @@
         "5415dc12-baaa-4953-9a84-ad1e463c8e84",
         "9ad9d59a-ca97-46ca-b7bb-be7bfe77cec7",
         "e23538cf-dfb8-441e-82de-612100f1dffd",
-        "4f1e1fa6-00a6-462f-9e1d-fd45a933c7c1"
+        "4f1e1fa6-00a6-462f-9e1d-fd45a933c7c1",
+        "bb0eeb65-e6fe-474c-af3a-3df1f038476b"
     ],
     "filterType": "GMObject",
     "folderName": "stakkers",

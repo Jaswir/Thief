@@ -32,6 +32,7 @@ if(mouse_check_button_pressed(mb_left) ){
 		else if(!basicsnarrated){
 						
 			with(obj_stakker) instance_destroy();
+			with(obj_wallet) instance_destroy();
 			with(obj_multicol_spawner){
 				alarm[0] = 1;
 			}
@@ -42,7 +43,34 @@ if(mouse_check_button_pressed(mb_left) ){
 				with(obj_timer) event_user(0);
 			}
 			
+			lines[6] = "Starting to make a name for yourself!";
+			lines[7] = "The cops will be on your back from now";
+			lines[8] = "Watch out!";
+			msg = lines[6];
+			
 			basicsnarrated = true;	
+		}
+		
+		else if(!agentintroduced){
+			
+			with(obj_stakker) instance_destroy();
+			with(obj_wallet) instance_destroy();
+			with(obj_multicol_spawner){
+				alarm[0] = 1;
+			}
+			
+			with(obj_agent_spawner){
+				
+				alarm[0] = 1;	
+			}
+			
+			//Set target
+			with(obj_target){
+				target = 5;	
+				with(obj_timer) event_user(0);
+			}
+			
+			agentintroduced = true;
 		}
 		
 		

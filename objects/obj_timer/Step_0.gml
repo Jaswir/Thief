@@ -17,8 +17,4 @@ if(started){
 		}	
 	}
 	
-	if(obj_target.target == 0){
-		
-		show_message("Master pickpocketeer in the house!");	
-	}
 }
