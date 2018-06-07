@@ -15,11 +15,6 @@ if(mouse_check_button_pressed(mb_left) ){
 			instance_destroy(obj_tut_stakker);
 			obj_basic_spawner.alarm[0] = 1;
 			
-			//Set target
-			with(obj_target){
-				target = 1;		
-			}
-		
 		
 			lines[3] = "That's it rookie!";
 			lines[4] = "You got down the basics";
@@ -37,10 +32,9 @@ if(mouse_check_button_pressed(mb_left) ){
 				alarm[0] = 1;
 			}
 			
-			//Set target
 			with(obj_target){
-				target = 7;	
-				with(obj_timer) event_user(0);
+				active = true;
+				target = 500;	
 			}
 			
 			lines[6] = "Starting to make a name for yourself!";
@@ -48,41 +42,21 @@ if(mouse_check_button_pressed(mb_left) ){
 			lines[8] = "Watch out!";
 			msg = lines[6];
 			
+			
 			basicsnarrated = true;	
 		}
 		
 		else if(!agentintroduced){
 			
-			with(obj_stakker) instance_destroy();
-			with(obj_wallet) instance_destroy();
-			with(obj_multicol_spawner){
-				alarm[0] = 1;
-			}
 			
 			with(obj_agent_spawner){
 				
 				alarm[0] = 1;	
 			}
 			
-			//Set target
-			with(obj_target){
-				target = 5;	
-				with(obj_timer) event_user(0);
-			}
-			
-			lines[9] = "You win!";
-			msg = lines[9];
+			with(obj_target) target = 600;	
 			
 			agentintroduced = true;
-		}
-		
-		else if (!won){
-			with(obj_stakker) instance_destroy();
-			with(obj_wallet) instance_destroy();
-			with(obj_multicol_spawner) instance_destroy();
-			with(obj_agent_spawner) instance_destroy();
-			obj_target.target = "WON";
-			won = true;	
 		}
 		
 		

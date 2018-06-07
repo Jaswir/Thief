@@ -3,18 +3,11 @@
 
 if(pissedoff) exit;
 pissedoff = true;
+instance_destroy(obj_hand);
+instance_destroy(obj_grabhand);
+score = 0;
 audio_play_sound(snd_cops, 1, false);
 
-with(obj_multicol_spawner) alarm[0] = -1;
-with(obj_agent_spawner) alarm[0] = -1;	
-with(obj_stakker) {
-	walkspd = 0.0;
-	image_speed = 0;
-}
-with(obj_officer){
-	walkspd = 0.0;
-	image_speed = 0;
-}
 
 
 

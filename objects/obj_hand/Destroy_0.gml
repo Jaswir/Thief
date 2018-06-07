@@ -8,12 +8,11 @@ if(grabbed){
 		with(instance_create_layer(x, y, "Invisible", obj_colsfx)){
 			
 			alarm[0] = (i * 5) + 1;
-			pitch = 1.0 - i * 0.1
-			
+			pitch = 1.0 - i * 0.1	
 		}
 		instance_destroy(wallet);
 	}
 	
-	obj_target.target--;
+
 
 }

@@ -1,4 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-pickpocketphasepassed = false;
+movingenemytransitioned = false;
+realworkdtransitioned = false;
+coptransitioned = false;
+won = false;
