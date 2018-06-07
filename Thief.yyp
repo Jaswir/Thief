@@ -447,6 +447,14 @@
             }
         },
         {
+            "Key": "da08b9a0-1cdc-44e3-ba6d-f68f86736a14",
+            "Value": {
+                "id": "23e16cbb-b2b3-45fe-ad68-8e247edc4d21",
+                "resourcePath": "sprites\\spr_officer_hit\\spr_officer_hit.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e23538cf-dfb8-441e-82de-612100f1dffd",
             "Value": {
                 "id": "4b65a48f-e5e4-402d-9bff-cd5872bc656d",

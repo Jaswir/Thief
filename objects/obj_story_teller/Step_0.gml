@@ -70,6 +70,8 @@ if(mouse_check_button_pressed(mb_left) ){
 				with(obj_timer) event_user(0);
 			}
 			
+			lines[9] = "You win!";
+			
 			agentintroduced = true;
 		}
 		
