@@ -191,6 +191,14 @@
             }
         },
         {
+            "Key": "5db2c5a6-db69-4f05-b131-eb5b2cb980b7",
+            "Value": {
+                "id": "471280ba-bb3e-47fb-9d34-e5287c628154",
+                "resourcePath": "objects\\obj_colsfx\\obj_colsfx.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "612d2a5c-f7fc-4701-8200-6487d39e7a63",
             "Value": {
                 "id": "5de8b96a-9e7c-4780-bfe2-be44fbe81511",

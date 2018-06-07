@@ -17,7 +17,7 @@ if(mouse_check_button_pressed(mb_left) ){
 			
 			//Set target
 			with(obj_target){
-				target = 3;		
+				target = 1;		
 			}
 		
 		

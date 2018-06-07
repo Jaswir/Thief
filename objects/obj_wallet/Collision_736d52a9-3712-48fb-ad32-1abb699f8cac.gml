@@ -1,8 +1,13 @@
 /// @description Insert description here
 // You can write your code in this editor
+if(grabbed) exit;
 
-x = obj_hand.x;
-obj_hand.grabbed = true;
-obj_hand.wallet = self;
-image_index = 1;
+with(obj_hand){
+	
+	other.x = x;
+	grabbed = true;
+	ds_list_add(wallets, other);
+}
 
+
+grabbed = true;
